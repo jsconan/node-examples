@@ -1,8 +1,8 @@
 {
-  "name": "Exemple-1",
+  "name": "Exemple-2",
   "version": "0.0.1",
   "author": "jsconan",
-  "description": "Un exemple simple",
+  "description": "Un chat minimaliste",
   "license": "MIT",
   "private": true,
   "main": "app.js",
