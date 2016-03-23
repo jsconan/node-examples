@@ -1,0 +1,46 @@
+body {
+    font: normal 10pt/12pt Arial, sans-serif;
+}
+.speaker {
+    margin: 10px;
+    padding: 0;
+}
+#text {
+    width: 340px;
+}
+#send {
+    width: 50px;
+}
+.messages {
+    position: relative;
+    margin: 10px;
+    padding: 0;
+    list-style-type: none;
+    height: 200px;
+    width: 400px;
+    border: 1px solid #444;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+.messages li {
+    padding: 4px 0;
+}
+.messages .system {
+    color: #888;
+    font-size: .7rem;
+    font-style: italic;
+}
+.messages .message {
+    font-size: .8rem;
+}
+.messages .message .login {
+    font-weight: bold;
+}
+.messages .message .text {
+}
+.messages .message.others {
+    color: #008;
+}
+.messages .message.me {
+    color: #080;
+}
