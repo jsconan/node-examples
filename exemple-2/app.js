@@ -18,4 +18,6 @@ app.use(function(req, res) {
 
 io.on('connection', chatServer);
 
-server.listen(serverPort);
+server.listen(serverPort, function() {
+    console.log('Server is listening on port ' + serverPort);
+});
